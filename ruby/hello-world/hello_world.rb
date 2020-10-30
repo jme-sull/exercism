@@ -6,3 +6,10 @@ To get started with TDD, see the `README.md` file in your
 `ruby/hello-world` directory.
 =end
 
+module HelloWorld
+    def self.hello
+        "Hello, World!" 
+        # the last thing in any method gets returned
+    end
+end
+
